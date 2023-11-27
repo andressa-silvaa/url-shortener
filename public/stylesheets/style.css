@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .icon{
+    height: 42px;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center !important;
+  }
+  form{
+    flex: 0 0 80%;
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 0.25rem;
+    text-align: center;
+  }
+  body {
+    background-image: url(/images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.font{
+  font-family: 'Tourney', sans-serif;
+  font-weight: 800  ;
+}
+.fonte{
+  font-family: 'Tourney', sans-serif;
+  font-weight: 500  ;
+}
+.btn-primary{
+    color: white;
+}
+.btn-primary:hover{
+    color: white;
+}
+.bg{
+  background-color: #FAE4C5;
+}
+.borda{
+  border: 1px solid #923900;
+  border-radius: 30px;
+}
+
+.statsRow {
+    overflow-wrap: break-word;
+}
+
